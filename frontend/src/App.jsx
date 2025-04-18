@@ -27,7 +27,7 @@ function App() {
   const [error, setError] = useState('');
   const { pairs } = item;
 
-  const contractAddress = '0x08758e695e9118B62EA755cF47143013C307A5CB';
+  const contractAddress = '0xC5c207D3A91BE55BAAD2301C9210f63b7e4e6AAe';
   
   const availablePairs = ["LINK/USD", "BTC/ETH", "ETH/USD","BTC/USD"];
   
