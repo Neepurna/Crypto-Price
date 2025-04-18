@@ -11,14 +11,11 @@ A real-time cryptocurrency price tracking application powered by Chainlink Data 
 
 ## Screenshot
 
-![Crypto Price App Interface](Screenshot.png)
+![Crypto Price App Interface](frontend/src/images/Screenshot.png)
 
-## Demo Video
+## Demo
 
-<video width="100%" autoplay loop muted>
-  <source src="/Crypto-Price.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Crypto Price App Demo](frontend/src/video/Crypto-Price.gif)
 
 ## Technology Stack
 
