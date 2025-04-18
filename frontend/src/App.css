@@ -1,0 +1,37 @@
+/* App.css - Simplified and monochrome */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Monochrome glow effects */
+.glow-text-white {
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    text-shadow: 0 0 5px rgba(255,255,255,0.5), 
+                0 0 10px rgba(255,255,255,0.3);
+  }
+  to {
+    text-shadow: 0 0 10px rgba(255,255,255,0.8), 
+                0 0 20px rgba(255,255,255,0.5), 
+                0 0 30px rgba(255,255,255,0.3);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-height: 500px) {
+  .tablet-frame {
+    height: 90vh !important;
+  }
+}
